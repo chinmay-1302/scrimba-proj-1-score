@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1B244A;
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.score {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 141%;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#home-score, #guest-score {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: 'Wallpoet', cursive;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 141$;
+}
+
+.btns {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+}
+
+.home-btns {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+}
+
+.guest-btns {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Wallpoet', cursive;
+}
+
+#buttons {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    margin: 0 0 9px 9px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    font-family: 'Wallpoet', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    color: #9AABD8;
+}
